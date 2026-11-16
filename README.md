@@ -42,3 +42,10 @@ The parser intentionally handles simple whitespace-separated arguments. It does 
 ## Sources and AI-tool declaration
 
 I used AI to help me write the tests and this README file.
+
+### References
+
+- [Understanding `getline()` in C](https://c-for-dummies.com/blog/?p=1112)
+- [Building a simple shell command-line interpreter in C](https://engineeringhulk.com/how-to-build-a-simple-shell-command-line-interpreter-in-c/)
+- [Write a shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
+- [`strtok()` and `strtok_r()` examples](https://www.geeksforgeeks.org/cpp/strtok-strtok_r-functions-c-examples/)
