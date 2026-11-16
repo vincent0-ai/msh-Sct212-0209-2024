@@ -180,7 +180,7 @@ int launch(char **args) {
 
         execvp(args[0], args);
         perror(args[0]);
-        _exit(EXIT_FAILURE);
+        _exit(errno == ENOENT ? 127 : 126);
     }
 
     if (pid < 0) {
