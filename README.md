@@ -19,9 +19,9 @@ make clean
 
 - [x] Task 1: Display a prompt, read arbitrary-length lines with `getline()`, and free the line buffer on exit/EOF.
 
-- [] Task 2: Split on spaces and tabs with `strtok()`, ignore blank lines, and terminate the argument vector with `NULL`.
-- [] Task 3: Run programs with `fork()`, `execvp()`, and `waitpid()`; report failures and continue after an unknown command.
-- [] Task 4: Implement `cd [dir]`, `help`, and `exit`; `cd` without a path uses `$HOME`.
+- [x] Task 2: Split on spaces and tabs with `strtok()`, ignore blank lines, and terminate the argument vector with `NULL`.
+- [x] Task 3: Run programs with `fork()`, `execvp()`, and `waitpid()`; report failures and continue after an unknown command.
+- [x] Task 4: Implement `cd [dir]`, `help`, and `exit`; `cd` without a path uses `$HOME`.
 - [] Task 5: Show the previous command's status in the prompt, including `128 + signal` for a command stopped by a signal.
 - [] Task 6: Run commands ending in `&` in the background, print their PID, and reap completed children with `waitpid(..., WNOHANG)` in the `SIGCHLD` handler.
 - [] Task 7: Redirect external-command stdout using `>`, opening the file in the child with create/truncate flags and mode `0644`.
